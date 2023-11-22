@@ -4,9 +4,9 @@ import PySimpleGUI as sg
 import os.path
 
 # File paths for the colorization model and points
-prototxt = r'C:\Users\vgvij\Desktop\model/colorization_deploy_v2.prototxt'
-model = r'C:\Users\vgvij\Desktop\model/colorization_release_v2.caffemodel'
-points = r'C:\Users\vgvij\Desktop\model/pts_in_hull.npy'
+prototxt = r'.\model/colorization_deploy_v2.prototxt'
+model = r'.\model/colorization_release_v2.caffemodel'
+points = r'.\model/pts_in_hull.npy'
 
 # Make paths platform-independent
 points = os.path.join(os.path.dirname(__file__), points)
